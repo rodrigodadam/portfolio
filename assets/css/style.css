@@ -24,6 +24,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 #menu, #logo {
@@ -103,7 +104,7 @@ to{
 
     padding-top: 25px;
     padding-left: 10px;
-    padding-bottom: -25px;
+    padding-bottom: -25git compx;
 
     background-color: rgba(241, 109, 107, .7);
 
@@ -111,4 +112,32 @@ to{
     right: 150px;
 
     position: absolute;
+}
+
+
+/* Club Ethos */
+
+#club-ethos {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: black;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: red;
+}
+
+#center-about {
+    width: 33%;
+    float: left;
+    margin: 0 auto;
+    background-color: green;
 }
